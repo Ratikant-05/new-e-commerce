@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form id="signupForm">
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="text" id="fullName" placeholder="Full Name" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button type="submit">Sign Up</button>
+  </form>
+  
+  <form id="loginForm">
+    <input type="email" id="loginEmail" placeholder="Email" required />
+    <input type="password" id="loginPassword" placeholder="Password" required />
+    <button type="submit">Log In</button>
+  </form>
+
+  <!-- profile image
+<img id="profilePic" src="" alt="Profile Picture" />
+<input type="file" id="profilePicInput" />
+<button onclick="updateProfile()">Update Profile</button> -->
+<!-- <input type="file" id="profilePicInput" />  -->
+
+<!-- displaying products -->
+<ul id="productsList"></ul>
+
+<!-- cart -->
+<ul id="cartItemsList"></ul>
+<button onclick="clearCart()">Clear Cart</button>
+
+<!-- order management -->
+<button onclick="placeOrder()">Place Order</button>
+<ul id="orderList"></ul>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
